@@ -21,6 +21,8 @@
 		81E5481329026E1B0072D8C3 /* FitnessSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E5481229026E1B0072D8C3 /* FitnessSelectTableViewCell.swift */; };
 		8E4EFC17290781C1000713DD /* TimerSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EFC16290781C1000713DD /* TimerSettingViewController.swift */; };
 		8E563D9929026189007B318D /* FinessSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E563D9829026189007B318D /* FinessSelectViewController.swift */; };
+		8E8FAE5F290B623500212F6C /* DailyCalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FAE5E290B623500212F6C /* DailyCalculationViewController.swift */; };
+		8E8FAE61290B641600212F6C /* DailyCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8FAE60290B641600212F6C /* DailyCalculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		81E5481229026E1B0072D8C3 /* FitnessSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessSelectTableViewCell.swift; sourceTree = "<group>"; };
 		8E4EFC16290781C1000713DD /* TimerSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingViewController.swift; sourceTree = "<group>"; };
 		8E563D9829026189007B318D /* FinessSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinessSelectViewController.swift; sourceTree = "<group>"; };
+		8E8FAE5E290B623500212F6C /* DailyCalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalculationViewController.swift; sourceTree = "<group>"; };
+		8E8FAE60290B641600212F6C /* DailyCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCalculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +76,15 @@
 		81E547F1290225EF0072D8C3 /* Fitness_NoTwo */ = {
 			isa = PBXGroup;
 			children = (
+				8E909E29290B604600C396C3 /* TimerSetting */,
 				81E5481629026FFD0072D8C3 /* FitnessSelect */,
 				81E5481529026FA70072D8C3 /* FitnessItem */,
 				81E5481429026F630072D8C3 /* ViewController */,
 				81E547F2290225EF0072D8C3 /* AppDelegate.swift */,
 				81E547F4290225EF0072D8C3 /* SceneDelegate.swift */,
 				81E54808290230E80072D8C3 /* FitnessItem.swift */,
+				8E8FAE60290B641600212F6C /* DailyCalculation.swift */,
+				8E8FAE5E290B623500212F6C /* DailyCalculationViewController.swift */,
 				81E547F8290225EF0072D8C3 /* Main.storyboard */,
 				81E547FB290225F20072D8C3 /* Assets.xcassets */,
 				81E547FD290225F20072D8C3 /* LaunchScreen.storyboard */,
@@ -89,7 +96,6 @@
 		81E5481429026F630072D8C3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				8E4EFC16290781C1000713DD /* TimerSettingViewController.swift */,
 				8E563D9829026189007B318D /* FinessSelectViewController.swift */,
 				81E5480C290267D70072D8C3 /* FitnessViewController.swift */,
 				2EDDC041290A25BB007532D3 /* TrainViewController.swift */,
@@ -113,6 +119,14 @@
 				81E5480E29026D4E0072D8C3 /* FitnessSelectTableViewController.swift */,
 			);
 			path = FitnessSelect;
+			sourceTree = "<group>";
+		};
+		8E909E29290B604600C396C3 /* TimerSetting */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EFC16290781C1000713DD /* TimerSettingViewController.swift */,
+			);
+			path = TimerSetting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +207,9 @@
 				81E54809290230E80072D8C3 /* FitnessItem.swift in Sources */,
 				81E5480F29026D4E0072D8C3 /* FitnessSelectTableViewController.swift in Sources */,
 				8E563D9929026189007B318D /* FinessSelectViewController.swift in Sources */,
+				8E8FAE61290B641600212F6C /* DailyCalculation.swift in Sources */,
 				81E5481329026E1B0072D8C3 /* FitnessSelectTableViewCell.swift in Sources */,
+				8E8FAE5F290B623500212F6C /* DailyCalculationViewController.swift in Sources */,
 				81E547F3290225EF0072D8C3 /* AppDelegate.swift in Sources */,
 				81E547F5290225EF0072D8C3 /* SceneDelegate.swift in Sources */,
 				81E5480B29023B5E0072D8C3 /* FitnessItemTableViewCell.swift in Sources */,
